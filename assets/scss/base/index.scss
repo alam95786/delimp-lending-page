@@ -1,0 +1,33 @@
+@import "typography";
+
+html ,body {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: $theme--font;
+   
+}
+
+* {
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
